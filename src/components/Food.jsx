@@ -73,28 +73,28 @@ const Food = () => {
           <p className='font-bold text-gray-700'>Filter Price</p>
           <div className='flex justify-between max-w-[390px] w-full'>
             <button
-              onClick={() => filterPrice('$')}
+              onClick={() => filterPrice('$5.99')}
               className='m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white'
             >
-              $
+              $5.99
             </button>
             <button
-              onClick={() => filterPrice('$$')}
+              onClick={() => filterPrice('$7.50')}
               className='m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white'
             >
-              $$
+              $7.50
             </button>
             <button
-              onClick={() => filterPrice('$$$')}
+              onClick={() => filterPrice('$9.00')}
               className='m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white'
             >
-              $$$
+              $9.00
             </button>
             <button
-              onClick={() => filterPrice('$$$$')}
+              onClick={() => filterPrice('$10.00')}
               className='m-1 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white'
             >
-              $$$$
+              $10.00
             </button>
           </div>
         </div>
